@@ -14,6 +14,8 @@ genfscon sysfs /class/input                                               u:obje
 genfscon sysfs /class/power_supply                                        u:object_r:sysfs_battery:s0
 genfscon sysfs /class/rtc/rtc0                                            u:object_r:sysfs_rtc:s0
 genfscon sysfs /class/sec/gps                                             u:object_r:sysfs_sec_gps:s0
+genfscon sysfs /class/sec/gps/GPS_PWR_EN                                  u:object_r:sysfs_sec_gps:s0
+genfscon sysfs /class/sec/gps/GPS_PWR_EN/value                            u:object_r:sysfs_sec_gps:s0
 genfscon sysfs /class/sec/sensors                                         u:object_r:sysfs_sec_sensors:s0
 genfscon sysfs /class/sec/tsp                                             u:object_r:sysfs_sec_touchscreen:s0
 genfscon sysfs /class/sensor_event                                        u:object_r:sysfs_sensors:s0

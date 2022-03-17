@@ -35,4 +35,5 @@ allow lhd sysfs_sec_gps:file r_file_perms;
 allow lhd sysfs_sensorhub_writable:file rw_file_perms;
 
 # /sys/class/sec/gps/GPS_PWR_EN/value
+allow lhd sysfs_gps_writable:dir r_dir_perms;
 allow lhd sysfs_gps_writable:file rw_file_perms;
